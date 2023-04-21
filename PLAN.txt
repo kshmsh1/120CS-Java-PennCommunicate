@@ -1,0 +1,78 @@
+=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
+CIS 1200 HW07 README
+PennKey: keshmesh
+=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
+
+============
+=: Task 2 :=
+============
+
+- Do you plan on creating any new classes in your design? If so, what classes
+  are you making, what do they store, and what behaviors do they have?
+
+  Created Channel.java
+
+- How do you plan on storing what users are registered on the server?
+
+  Using Set
+
+- How do you plan on keeping track of which user has which user ID, considering
+  the fact that the user's nickname can change over the course of the program?
+
+  Using TreeMaps
+
+- How do you plan on storing what users are in a channel?
+
+Channel class with collections of user
+
+- How do you plan on keeping track of which user is the owner of each channel?
+
+Channel class with name (owner) attribute
+
+- Justify your choice of collections (Set, Map, or List) for the
+  collections you use in your design.
+
+    Used Map (choice of collection) to map
+
+============
+=: Task 3 :=
+============
+
+- Did you make any changes to your design while doing this task? Why?
+
+No, because I only had to add users and their nicknames, and only had to loop through TreeSets.
+
+============
+=: Task 4 :=
+============
+
+- Did you make any changes to your design while doing this task? Why?
+
+No, because I could easily add TreeSets while using TreeMaps to store everything, accessing all the data that I needed.
+
+============
+=: Task 5 :=
+============
+
+- How do you plan on keeping track of which channels are invite-only?
+
+By setting an invite-only field to boolean (true or false) in the Channel class
+
+- Will you make any changes to your work from before in order to make
+  implementing invite-only channels easier?
+
+  No, because I already have a Channel class, so I just added a field to it.
+
+
+============
+=: Task 6 :=
+============
+
+- Did you have to make any changes to your design in Task 6? Why?
+
+No, because I already had a Channel class
+
+- If you were to redo this assignment, what changes (if any) would you make in
+  how you designed your code?
+
+I would consider using multiple LinkedLists, while limiting the amount of LinkedLists used, to keep track of the order of users.
